@@ -199,3 +199,10 @@ section{
   left: 50%;
   transform: translateX(-50%); 
 }
+.card{
+  height: 100%;
+}
+.card h2{
+  width: 100%;
+
+}
