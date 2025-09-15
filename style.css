@@ -101,8 +101,17 @@ height: 200px;
 .icn{
    transition: all 0.3s ease;
    border: solid  10px  rgba(13, 110, 253);
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 20px;
+    background-color: #f0f0f0;
+    width: 80px;
+    height: 80px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
-.card:hover .icn {
+.sr:hover .icn {
 border-color: rgb(187, 203, 227) !important;
 background-color:  rgba(13, 110, 253);
 color:aliceblue;
@@ -199,10 +208,10 @@ section{
   left: 50%;
   transform: translateX(-50%); 
 }
-.card{
-  height: 100%;
-}
-.card h2{
-  width: 100%;
 
+.sr{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
 }
